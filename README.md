@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @altaskur
+- 👀 I’m interested in development and maker World
+- 🌱 I’m currently learning JavaScript environment
+- 💞️ I’m looking to collaborate on my twitch chanel https://www.twitch.tv/altaskur
