@@ -27,3 +27,4 @@ Un temporizador que nos permite gestionar nuestro tiempo de trabajo, aumentando 
 
 ## 🕐[[cuenta-atras]](https://github.com/altaskur/cuenta-atras)
 Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
+> Enfocado a practicar con las funciones ```setInterval()`` con archivos .json y manipular archivos con el módulo fs de Node-js.
