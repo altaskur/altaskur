@@ -18,9 +18,12 @@ Each practical project is focused on practicing a specific function, solving a p
 </br>
 Cada proyecto está enfocado en practicar una función en concreto, solucionando un problema en la vida real.
 
-## [🍅Pomodoro]
+## 🍅[[Pomodoro]](https://github.com/altaskur/pomodoro)
 Un temporizador que nos permite gestionar nuestro tiempo de trabajo, aumentando la productividad realizando pausas cada cierto tiempo.
 
 > Enfocada a practicar a gestionar funciones con ```setInterval()``` y su detención con ```clearTimeout()```.
 
 [Enlace al proyecto pomodoro](https://github.com/altaskur/pomodoro).
+
+## [[cuenta-atras]](https://github.com/altaskur/cuenta-atras)
+Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
