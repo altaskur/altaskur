@@ -19,7 +19,7 @@ Each practical project is focused on practicing a specific function, solving a p
 Cada proyecto está enfocado en practicar una función en concreto, solucionando un problema en la vida real.
 
 ## 🍅[[Pomodoro]](https://github.com/altaskur/pomodoro)
-Un temporizador que nos permite gestionar nuestro tiempo de trabajo, aumentando la productividad realizando pausas cada cierto tiempo.
+Un temporizador que permite gestionar el tiempo de trabajo, aumentando la productividad y realizando pausas cada cierto tiempo.
 
 > Enfocada a practicar a gestionar funciones con ```setInterval()``` y su detención con ```clearTimeout()```.
 
