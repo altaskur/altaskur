@@ -12,16 +12,16 @@
 # [[Wiki]](https://github.com/altaskur/Apuntes/wiki)
 [eng]
 </br>
-Where will I go creating notes and theory arising from the projects that I carry out.
+Where will I go creating notes and theory arising from the projects that I carry out [[Wiki]](https://github.com/altaskur/Apuntes/wiki).
 
 [esp]
 </br>
-Dónde iré creando apuntes y teoría surgida en los proyectos que vaya realizando [[Wiki]](https://github.com/altaskur/Apuntes/wiki).
+Dónde iré creando apuntes y teoría surgida en los proyectos que vaya realizando [[Wiki]](https://github.com/altaskur/Apuntes/wiki) .
 
 # [Proyects / Proyectos]
 [eng]
 </br>
-Each practical project is focused on practicing a specific function, solving a problem in real life [[Wiki]](https://github.com/altaskur/Apuntes/wiki).
+Each practical project is focused on practicing a specific function, solving a problem in real life.
 
 [esp]
 </br>
