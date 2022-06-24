@@ -27,23 +27,23 @@ Each practical project is focused on practicing a specific function, solving a p
 </br>
 Cada proyecto está enfocado en practicar una función en concreto, solucionando un problema en la vida real.
 
-## 🍅[[Pomodoro]](https://github.com/altaskur/pomodoro)
+## 🍅[[Pomodoro]](https://github.com/altaskur/pomodoro) ✔
 Un temporizador que permite gestionar el tiempo de trabajo, aumentando la productividad y realizando pausas cada cierto tiempo.
 
 > Enfocada a practicar a gestionar funciones con ```setInterval()``` y su detención con ```clearTimeout()```.
 
 [Enlace al proyecto pomodoro](https://github.com/altaskur/pomodoro).
 
-## 🕐 [[cuenta-atras]](https://github.com/altaskur/cuenta-atras)
+## 🕐 [[cuenta-atras]](https://github.com/altaskur/cuenta-atras) `🔎 necesita revisión`
 Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
 > Enfocado a practicar con las funciones ```setInterval()``` con manipulación de archivos y ```objetos .json``` y manipular archivos con el ```módulo fs de Node-js```.
 
-## 📂 [[file-filter]](https://github.com/altaskur/file-filter)
+## 📂 [[file-filter]](https://github.com/altaskur/file-filter) `⌛ En progreso`
 Un organizador de archivos automático escrito en electron-js 
 > Enfocado a practicar el ciclo do-while con manipulación de archivos JSON con el ```módulo fs de Node-js```.
 
 
-## 📅 [[calendario]](https://github.com/altaskur/calendar-js)
+## 📅 [[calendario]](https://github.com/altaskur/calendar-js) 
 Un calendario mensual, que indica el dia actual, y cambiar de mes.
 
 > Práctica enfocada a trabajar con la función ```date()``` de JavaScript.
