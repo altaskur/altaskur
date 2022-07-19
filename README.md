@@ -38,7 +38,7 @@ Un temporizador que permite gestionar el tiempo de trabajo, aumentando la produc
 Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
 > Enfocado a practicar con las funciones ```setInterval()``` con manipulación de archivos y ```objetos .json``` y manipular archivos con el ```módulo fs de Node-js```.
 
-## 📂 [[file-filter]](https://github.com/altaskur/file-filter) ⌛ 
+## 📂 [[file-filter]](https://github.com/altaskur/file-filter) ✅ 
 Un organizador de archivos automático escrito en electron-js 
 > Enfocado a practicar el ciclo do-while con manipulación de archivos JSON con el ```módulo fs de Node-js```.
 
