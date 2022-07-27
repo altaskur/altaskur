@@ -34,7 +34,7 @@ Un temporizador que permite gestionar el tiempo de trabajo, aumentando la produc
 
 [Enlace al proyecto pomodoro](https://github.com/altaskur/pomodoro).
 
-## 🕐 [[cuenta-atras]](https://github.com/altaskur/cuenta-atras)  🔎
+## 🕐 [[cuenta-atras]](https://github.com/altaskur/cuenta-atras)  ✅
 Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
 > Enfocado a practicar con las funciones ```setInterval()``` con manipulación de archivos y ```objetos .json``` y manipular archivos con el ```módulo fs de Node-js```.
 
@@ -47,6 +47,12 @@ Un organizador de archivos automático escrito en electron-js
 Un calendario mensual, que indica el dia actual, y cambiar de mes.
 
 > Práctica enfocada a trabajar con la función ```date()``` de JavaScript.
+
+
+## 💣 [[Buscaminas]](https://github.com/altaskur/buscaminas) ✅ 
+El clásico juego de buscaminas
+> Enfocado a practicar con arrays bidimiensionales y funciones recrusivas.
+
 
 #### Leyenda 
 
