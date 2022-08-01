@@ -49,7 +49,7 @@ Un calendario mensual, que indica el dia actual, y cambiar de mes.
 > Práctica enfocada a trabajar con la función ```date()``` de JavaScript.
 
 
-## 💣 [[Buscaminas]](https://github.com/altaskur/buscaminas) ⌛
+## 💣 [[Buscaminas]](https://github.com/altaskur/buscaminas) ✅
 El clásico juego de buscaminas
 > Enfocado a practicar con arrays bidimiensionales y funciones recrusivas.
 
