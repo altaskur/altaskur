@@ -9,7 +9,7 @@
 - 🌱 Actualmente estoy aprendiendo de JavaScript.
 - 💞️ Todos los proyectos los realizó en directo en [Twitch @altaskur](https://www.twitch.tv/altaskur)
 
-# [[Wiki]](https://github.com/altaskur/Apuntes/wiki)
+# [[Wiki]](https://github.com/altaskur/Apuntes)
 [eng]
 </br>
 Where will I go creating notes and theory arising from the projects that I carry out [[Wiki]](https://github.com/altaskur/Apuntes/wiki).
