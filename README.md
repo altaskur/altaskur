@@ -12,11 +12,11 @@
 # [[Wiki]](https://github.com/altaskur/Apuntes)
 [eng]
 </br>
-Where will I go creating notes and theory arising from the projects that I carry out [[Wiki]](https://github.com/altaskur/Apuntes/wiki).
+Where will I go creating notes and theory arising from the projects that I carry out [[Wiki]](https://github.com/altaskur/Apuntes).
 
 [esp]
 </br>
-Dónde iré creando apuntes y teoría surgida en los proyectos que vaya realizando [[Wiki]](https://github.com/altaskur/Apuntes/wiki) .
+Dónde iré creando apuntes y teoría surgida en los proyectos que vaya realizando [[Wiki]](https://github.com/altaskur/Apuntes) .
 
 # [Proyects / Proyectos]
 [eng]
