@@ -51,10 +51,10 @@ Un calendario mensual, que indica el dia actual, y cambiar de mes.
 
 ## 💣 [[Buscaminas]](https://github.com/altaskur/buscaminas) ✅
 El clásico juego de buscaminas
-> Enfocado a practicar con arrays bidimiensionales y funciones recrusivas.
+> Enfocado a practicar con arrays bidimensionales y funciones recursivas.
 
 
-#### Leyenda 
+#### Leyenda
 
 <hr>
 
