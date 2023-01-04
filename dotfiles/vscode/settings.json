@@ -2,230 +2,219 @@
     Based on Wuelnerdotexe https://gist.github.com/wuelnerdotexe
     settings versión  https://gist.github.com/wuelnerdotexe/d192c97822dbdc77a15d2f3268b765cd
 */
+
 {
-    // Languages
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+  // Languages
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features"
+  },
+  //   "[javascript]": {
+  //       "editor.defaultFormatter": "vscode.typescript-language-features"
+  //   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "java.format.settings.profile": "GoogleStyle"
+  },
+  "java.implementationsCodeLens.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  // ENFOCADO INDISTRACTABLE SETUP: {{{
+
+  // Clean the editor of useless stuff.
+  "window.menuBarVisibility": "compact",
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "window.zoomLevel": 2,
+  // Disable unseless icons.
+  "workbench.editor.showIcons": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.tabSizing": "shrink",
+
+  // Disable explorer and tabs colors in filenames.
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.colors": false,
+
+  // Enable explorer and tabs colors in filename's badges.
+  "explorer.decorations.badges": true,
+  "workbench.editor.decorations.badges": true,
+
+  // Enable semantic highlighting syntax.
+  "editor.semanticHighlighting.enabled": true,
+
+  // Enable bracket pair colorization.
+  "editor.bracketPairColorization.enabled": true,
+
+  // Enable indent lines with colorization pairs.
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+
+  // Show only trailing whitespaces.
+  "editor.renderWhitespace": "trailing",
+
+  // Customize only the editor font to make it stand out from the rest.
+  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontSize": 10,
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 1.2,
+  "editor.lineHeight": 1.8,
+
+  // Enable Enfocado theme.
+  "workbench.preferredLightColorTheme": "Enfocado Light Nature",
+  "workbench.preferredDarkColorTheme": "Enfocado Dark Nature",
+
+  // Enfocado customizations.
+  "workbench.colorCustomizations": {
+    "[Enfocado Dark Nature], [Enfocado Dark Neon]": {
+      "editorWhitespace.foreground": "#ff5e56"
     },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "vscode.markdown-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java",
-        "java.format.settings.profile": "GoogleStyle"
-    },
-    "java.implementationsCodeLens.enabled": true,
-    "redhat.telemetry.enabled": false,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    },
+    "[Enfocado Light Nature], [Enfocado Light Neon]": {
+      "editorWhitespace.foreground": "#bf0000"
+    }
+  },
+  // }}}
 
-    "window.zoomLevel": 2.5,
-    // ENFOCADO INDISTRACTABLE SETUP: {{{
+  // Editor interfaz.
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Enfocado Dark Nature",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
 
-    // Clean the editor of useless stuff.
-    "window.menuBarVisibility": "toggle",
-    "editor.renderLineHighlight": "none",
-    "editor.minimap.enabled": false,
-    "breadcrumbs.filePath": "off",
+  // Editor animations.
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
 
-    // Disable unseless icons.
-    "workbench.editor.showIcons": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.editor.tabSizing": "shrink",
+  // Terminal.
+  "terminal.integrated.localEchoExcludePrograms": [
+    "nvim",
+    "vim",
+    "vi",
+    "nano",
+    "tmux"
+  ],
 
-    // Disable explorer and tabs colors in filenames.
-    "explorer.decorations.colors": false,
-    "workbench.editor.decorations.colors": false,
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.enableBell": true,
 
-    // Enable explorer and tabs colors in filename's badges.
-    "explorer.decorations.badges": true,
-    "workbench.editor.decorations.badges": true,
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.letterSpacing": 1.2,
+  "terminal.integrated.lineHeight": 1.8,
 
-    // Enable semantic highlighting syntax.
-    "editor.semanticHighlighting.enabled": true,
+  // Path tsserver.
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
 
-    // Enable bracket pair colorization.
-    "editor.bracketPairColorization.enabled": true,
+  // Path Intellisense.
+  "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.autoSlashAfterDirectory": true,
 
-    // Enable indent lines with colorization pairs.
-    "editor.guides.indentation": true,
-    "editor.guides.bracketPairs": true,
+  // Emmet.
+  "emmet.includeLanguages": {
+    "postcss": "css",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // Linters.
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // Eslint
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
 
-    // Show only trailing whitespaces.
-    "editor.renderWhitespace": "trailing",
+  // Formatter
+  "json.format.enable": false,
+  "html.format.enable": false,
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.bracketSameLine": true,
 
-    // Customize only the editor font to make it stand out from the rest.
-    "editor.fontFamily": "IBM Plex Mono",
-    "editor.fontSize": 12,
-    "editor.fontWeight": "300",
-    "editor.fontLigatures": true,
-    "editor.letterSpacing": 1.2,
-    "editor.lineHeight": 1.8,
+  // Tools
 
-    // Enable Enfocado theme.
-    "workbench.preferredLightColorTheme": "Enfocado Light Nature",
-    "workbench.preferredDarkColorTheme": "Enfocado Dark Nature",
+  // Markdown-preview
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
 
-    // Enfocado customizations.
-    "workbench.colorCustomizations": {
-        "[Enfocado Dark Nature], [Enfocado Dark Neon]": {
-            "editorWhitespace.foreground": "#ff5e56"
-        },
-        "[Enfocado Light Nature], [Enfocado Light Neon]": {
-            "editorWhitespace.foreground": "#bf0000"
-        }
-    },
-    // }}}
+  // cSpell
+  "cSpell.language": "es, en, ca",
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
 
-    // Editor interfaz.
-    "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Enfocado Dark Nature",
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 120,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.inlineSuggest.enabled": true,
-    "editor.accessibilitySupport": "off",
+  // Git
+  "git.confirmSync": false,
 
-    // Editor animations.
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.smoothScrolling": true,
-    "terminal.integrated.smoothScrolling": true,
-    "workbench.list.smoothScrolling": true,
+  // LiveServer
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
 
-    // Terminal.
-    "terminal.integrated.localEchoExcludePrograms": [
-        "nvim",
-        "vim",
-        "vi",
-        "nano",
-        "tmux"
-    ],
+  // LiveShare
+  "liveshare.anonymousGuestApproval": "accept",
 
-    "terminal.integrated.allowMnemonics": true,
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.enableBell": true,
+  // Fun
 
-    "terminal.integrated.fontFamily": "IBM Plex Mono",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.letterSpacing": 1.2,
-    "terminal.integrated.lineHeight": 1.8,
+  // Discord
+  "discord.detailsEditing": "Buggeando  {file_name}",
+  "discord.largeImageIdling": "Bebiendo agua",
+  "discord.lowerDetailsIdling": "Bebiendo agua",
+  "discord.lowerDetailsNoWorkspaceFound": "",
+  "discord.removeRemoteRepository": true,
+  "discord.lowerDetailsEditing": " {workspace}",
+  "discord.lowerDetailsDebugging": "Buscando bugs en {workspace}",
+  "discord.largeImage": "Creando bugs en {LANG}",
+  "discord.detailsIdling": "Bebiendo agua",
 
-    // Path tsserver.
-    "javascript.suggest.paths": false,
-    "typescript.suggest.paths": false,
+  // Vscode-Pets
+  "vscode-pets.position": "panel",
+  "vscode-pets.petType": "dog",
 
-    // Path Intellisense.
-    "path-intellisense.showHiddenFiles": true,
-    "path-intellisense.autoTriggerNextSuggestion": true,
-    "path-intellisense.autoSlashAfterDirectory": true,
-
-    // Emmet.
-    "emmet.includeLanguages": {
-        "postcss": "css",
-        "javascript": "javascriptreact",
-        "typescript": "typescriptreact"
-    },
-    // // Tailwind CSS IntelliSense.
-    // "tailwindCSS.emmetCompletions": true,
-    // "editor.quickSuggestions": {
-    //     "strings": true
-    // },
-    // // Tabnine.
-    // "tabnine.receiveBetaChannelUpdates": true,
-    // "tabnine.experimentalAutoImports": true,
-    // Stylelint.
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    // Linters.
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    // Eslint
-    "eslint.alwaysShowStatus": true,
-    "eslint.format.enable": true,
-
-    // Formatter
-    "json.format.enable": false,
-    "html.format.enable": false,
-    "editor.formatOnSave": true,
-    // "prettier.requireConfig": true,
-    // "prettier.singleAttributePerLine": true,
-    // "prettier.bracketSameLine": true,
-
-    // Tools
-
-    // Markdown-preview
-    "markdown-preview-enhanced.previewTheme": "one-dark.css",
-
-    // cSpell
-    "cSpell.language": "es, en, ca",
-    "cSpell.customDictionaries": {
-        "custom-dictionary-user": {
-          "name": "custom-dictionary-user",
-          "path": "~/.cspell/custom-dictionary-user.txt",
-          "addWords": true,
-          "scope": "user"
-        }
-    },
-
-    // Git
-    "git.confirmSync": false,
-
-    // LiveServer
-    "liveServer.settings.fullReload": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-
-    // LiveShare
-    "liveshare.anonymousGuestApproval": "accept",
-
-    // Fun
-
-    // Discord
-    "discord.detailsEditing": "Buggeando  {file_name}",
-    "discord.largeImageIdling": "Bebiendo agua",
-    "discord.lowerDetailsIdling": "Bebiendo agua",
-    "discord.lowerDetailsNoWorkspaceFound": "",
-    "discord.removeRemoteRepository": true,
-    "discord.lowerDetailsEditing": " {workspace}",
-    "discord.lowerDetailsDebugging": "Buscando bugs en {workspace}",
-    "discord.largeImage": "Creando bugs en {LANG}",
-    "discord.detailsIdling": "Bebiendo agua",
-
-    // VScode-pets
-    "vscode-pets.petSize": "medium",
-    "vscode-pets.position": "panel",
-    "vscode-pets.petType": "dog",
-
-    // PowerMode
-    "powermode.enabled": true,
-    "powermode.combo.counterEnabled": "hide",
-    "powermode.combo.location": "off",
-    "powermode.combo.timerEnabled": "hide",
-    "powermode.shake.intensity": 0,
-    "powermode.explosions.duration": 190,
-    "powermode.explosions.size": 5.9,
-    "powermode.explosions.frequency": 3
+  // PowerMode
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.location": "off",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.intensity": 0,
+  "powermode.explosions.duration": 190,
+  "powermode.explosions.size": 5.9,
+  "powermode.explosions.frequency": 3
 }

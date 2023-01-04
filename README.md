@@ -1,65 +1,21 @@
-# [Profile]
-- 👋 Hi, I’m @altaskur
-- 👀 I’m interested in development and maker World
-- 🌱 I’m currently learning JavaScript environment
-- 💞️ All the projects were made in streaming in [Twitch @altaskur](https://www.twitch.tv/altaskur)
-# [Perfil]
-- 👋 Hola, soy Altaskur
-- 👀 Interesado en el desarrollo y en el mundo Maker.
-- 🌱 Actualmente estoy aprendiendo de JavaScript.
-- 💞️ Todos los proyectos los realizó en directo en [Twitch @altaskur](https://www.twitch.tv/altaskur)
+# 👋 Hola, soy [Altaskur](https://github.com/altaskur)
 
-# [[Wiki]](https://github.com/altaskur/Apuntes)
-[eng]
-</br>
-Where will I go creating notes and theory arising from the projects that I carry out [[Wiki]](https://github.com/altaskur/Apuntes).
+[![Twitter Follow](https://img.shields.io/twitter/follow/altaskur?label=%40Altaskur&logo=twitter&style=for-the-badge)](https://twitter.com/Altaskur) [![GitHub User's stars](https://img.shields.io/github/stars/Altaskur?color=gold&logo=Github&style=for-the-badge)](/#) [![Twitch Status](https://img.shields.io/twitch/status/Altaskur?color=purple&logo=Twitch&logoColor=white&style=for-the-badge)](https://www.twitch.tv/altaskur)
 
-[esp]
-</br>
-Dónde iré creando apuntes y teoría surgida en los proyectos que vaya realizando [[Wiki]](https://github.com/altaskur/Apuntes) .
+👨‍💻 Soy un estudiante de D.A.W (desarrollo de aplicaciones web) y en mi tiempo libre me dedico a hacer pequeños proyectos en [**Twitch**](https://www.twitch.tv/altaskur) para complementar mi formación y satisfacer mi curiosidad.
 
-# [Proyects / Proyectos]
-[eng]
-</br>
-Each practical project is focused on practicing a specific function, solving a problem in real life.
+💖 Me encanta el desarrollo web y de escritorio y me esfuerzo por crear proyectos minimalistas y accesibles. Además, también tomo [**📒apuntes**](https://github.com/altaskur/Apuntes) de lo que aprendo en cada directo para poder revisarlos más adelante y profundizar en los temas que más me interesan.
 
-[esp]
-</br>
-Cada proyecto está enfocado en practicar una función en concreto, solucionando un problema en la vida real.
+Aquí encontrarás aplicaciones que he desarrollado mientras transmito en directo en mi canal de [**Twitch**](https://www.twitch.tv/altaskur) para adquirir habilidades y características específicas. **¡Espero que disfrutes explorando mis proyectos!**.
 
-## 🍅[[Pomodoro]](https://github.com/altaskur/pomodoro) ✅
-Un temporizador que permite gestionar el tiempo de trabajo, aumentando la productividad y realizando pausas cada cierto tiempo.
+## 👨‍💻 Lenguajes
 
-> Enfocada a practicar a gestionar funciones con ```setInterval()``` y su detención con ```clearTimeout()```.
+[![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](/#)[![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript)](/#)[![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](/#)[![CSS](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](/#)[![HTML](https://img.shields.io/badge/html-black?style=for-the-badge&logo=HTML5)](/#)
 
-[Enlace al proyecto pomodoro](https://github.com/altaskur/pomodoro).
+### I 💖 Frameworks
 
-## 🕐 [[cuenta-atras]](https://github.com/altaskur/cuenta-atras)  ✅
-Un temporizador regresivo, el cual genera un archivo de texto en C:/pomodoro/reloj.txt, guardando en otro archivo en formato json, los últimos datos del usuario, con la finalidad de ser consumido por OBS-Studio.
-> Enfocado a practicar con las funciones ```setInterval()``` con manipulación de archivos y ```objetos .json``` y manipular archivos con el ```módulo fs de Node-js```.
+[![Electron](https://img.shields.io/badge/Electron-black?style=for-the-badge&logo=electron)](/#)[![Python](https://img.shields.io/badge/Angular-black?style=for-the-badge&logo=Angular)](/#)[![Python](https://img.shields.io/badge/Astro-black?style=for-the-badge&logo=astro)](/#)
 
-## 📂 [[file-filter]](https://github.com/altaskur/file-filter) ✅ 
-Un organizador de archivos automático escrito en electron-js 
-> Enfocado a practicar el ciclo do-while con manipulación de archivos JSON con el ```módulo fs de Node-js```.
+### ⏱️ Próximamente
 
-
-## 📅 [[calendario]](https://github.com/altaskur/calendar-js) ✅
-Un calendario mensual, que indica el dia actual, y cambiar de mes.
-
-> Práctica enfocada a trabajar con la función ```date()``` de JavaScript.
-
-
-## 💣 [[Buscaminas]](https://github.com/altaskur/buscaminas) ✅
-El clásico juego de buscaminas
-> Enfocado a practicar con arrays bidimensionales y funciones recursivas.
-
-
-#### Leyenda
-
-<hr>
-
-✅ = Completado.
-
-⌛ = En progreso.
-
-🔎 = Pendiente de revisión.
+[![Go](https://img.shields.io/badge/go-black?style=for-the-badge&logo=go)](/#)[![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](/#)
