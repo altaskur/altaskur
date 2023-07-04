@@ -2,31 +2,31 @@
     Based on Wuelnerdotexe https://gist.github.com/wuelnerdotexe
     settings versión  https://gist.github.com/wuelnerdotexe/d192c97822dbdc77a15d2f3268b765cd
 */
-
 {
   // Languages
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    //"editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.formatOnSave": true
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "vscode.markdown-language-features"
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  //   "[javascript]": {
-  //       "editor.defaultFormatter": "vscode.typescript-language-features"
-  //   },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
   "typescript.updateImportsOnFileMove.enabled": "always",
+
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnType": true
   },
   "[java]": {
     "editor.defaultFormatter": "redhat.java",
@@ -34,8 +34,13 @@
   },
   "java.implementationsCodeLens.enabled": true,
   "redhat.telemetry.enabled": false,
+
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
   },
   // ENFOCADO INDISTRACTABLE SETUP: {{{
 
@@ -44,7 +49,6 @@
   "editor.renderLineHighlight": "none",
   "editor.minimap.enabled": false,
   "breadcrumbs.filePath": "off",
-  "window.zoomLevel": 2,
   // Disable unseless icons.
   "workbench.editor.showIcons": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -68,13 +72,12 @@
   // Enable indent lines with colorization pairs.
   "editor.guides.indentation": true,
   "editor.guides.bracketPairs": true,
-
   // Show only trailing whitespaces.
   "editor.renderWhitespace": "trailing",
 
   // Customize only the editor font to make it stand out from the rest.
   "editor.fontFamily": "IBM Plex Mono",
-  "editor.fontSize": 10,
+  "editor.fontSize": 18,
   "editor.fontWeight": "300",
   "editor.fontLigatures": true,
   "editor.letterSpacing": 1.2,
@@ -93,10 +96,6 @@
       "editorWhitespace.foreground": "#bf0000"
     }
   },
-  // }}}
-
-  // Editor interfaz.
-  "workbench.sideBar.location": "right",
   "workbench.colorTheme": "Enfocado Dark Nature",
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
@@ -106,7 +105,7 @@
 
   // Editor animations.
   "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
@@ -123,8 +122,6 @@
   "terminal.integrated.allowMnemonics": true,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.enableBell": true,
-
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
   "terminal.integrated.fontSize": 10,
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.letterSpacing": 1.2,
@@ -145,29 +142,32 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
+
   // Linters.
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
   // Eslint
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
 
+  // Stylelint.
+  "css.validate": true,
+  "less.validate": false,
+  "scss.validate": false,
+
   // Formatter
   "json.format.enable": false,
   "html.format.enable": false,
-  "editor.formatOnSave": true,
-  "prettier.requireConfig": true,
-  "prettier.singleAttributePerLine": true,
-  "prettier.bracketSameLine": true,
+  "markdown.formatOnSave": true,
+  // "prettier.requireConfig": true,
+  // "prettier.singleAttributePerLine": true,
+  // "prettier.bracketSameLine": true,
 
   // Tools
 
   // Markdown-preview
-  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown-preview-enhanced.previewTheme": "none.css",
 
   // cSpell
   "cSpell.language": "es, en, ca",
@@ -203,8 +203,6 @@
   "discord.lowerDetailsDebugging": "Buscando bugs en {workspace}",
   "discord.largeImage": "Creando bugs en {LANG}",
   "discord.detailsIdling": "Bebiendo agua",
-
-  // Vscode-Pets
   "vscode-pets.position": "panel",
   "vscode-pets.petType": "dog",
 
@@ -216,5 +214,59 @@
   "powermode.shake.intensity": 0,
   "powermode.explosions.duration": 190,
   "powermode.explosions.size": 5.9,
-  "powermode.explosions.frequency": 3
+  "powermode.explosions.frequency": 3,
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "workbench.sideBar.location": "right",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "env": { "chcp": "65001" }
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd",
+      "env": { "chcp": "65001" }
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "errorLens.excludeBySource": [
+    "ts(2339)",
+    "eslint(no-unused-vars)",
+    "ts(1149)"
+  ],
+  "rapidapi.terminalLink.enabled": false,
+  "terminal.integrated.fontFamily": "Lucida Console",
+  "window.zoomLevel": 1,
+
+  "files.associations": {
+    "*.ejs": "html",
+    ".env*": "dotenv"
+  },
+  "dotenv.enableAutocloaking": true
 }
