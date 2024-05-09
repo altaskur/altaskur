@@ -10,12 +10,7 @@ Aquí encontrarás aplicaciones que he desarrollado mientras transmito en direct
 
 ## 👨‍💻 Lenguajes
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](/#)[![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript)](/#)[![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](/#)[![CSS](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](/#)[![HTML](https://img.shields.io/badge/html-black?style=for-the-badge&logo=HTML5)](/#)
-
+[![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](/#)[![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript)](/#)
 ### I 💖 Frameworks
 
-[![Electron](https://img.shields.io/badge/Electron-black?style=for-the-badge&logo=electron)](/#)[![Python](https://img.shields.io/badge/Angular-black?style=for-the-badge&logo=Angular)](/#)[![Python](https://img.shields.io/badge/Astro-black?style=for-the-badge&logo=astro)](/#)
-
-### ⏱️ Próximamente
-
-[![Go](https://img.shields.io/badge/go-black?style=for-the-badge&logo=go)](/#)[![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](/#)
+[![Electron](https://img.shields.io/badge/Electron-black?style=for-the-badge&logo=electron)](/#)[![Angular](https://img.shields.io/badge/Angular-black?style=for-the-badge&logo=Angular)](/#)[![Astro](https://img.shields.io/badge/Astro-black?style=for-the-badge&logo=astro)](/#)
