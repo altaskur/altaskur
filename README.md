@@ -11,6 +11,19 @@ Aquí encontrarás aplicaciones que he desarrollado mientras transmito en direct
 ## 👨‍💻 Lenguajes
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](/#)[![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript)](/#)
-### I 💖 Frameworks
 
-[![Electron](https://img.shields.io/badge/Electron-black?style=for-the-badge&logo=electron)](/#)[![Angular](https://img.shields.io/badge/Angular-black?style=for-the-badge&logo=Angular)](/#)[![Astro](https://img.shields.io/badge/Astro-black?style=for-the-badge&logo=astro)](/#)
+[![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3)](/#)
+
+## I 💖 Frameworks
+
+### 🖼️ Frontend
+
+[![Electron](https://img.shields.io/badge/Electron-black?style=for-the-badge&logo=electron)](/#)[![Angular](https://img.shields.io/badge/Angular-black?style=for-the-badge&logo=Angular)](/#)[![Vue](https://img.shields.io/badge/Vue-black?style=for-the-badge&logo=Vue.Js)](/#)[![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=React)](/#)
+
+### 📦 Backend
+
+[![Node.js](https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js)](/#)[![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=Express)](/#)
+
+## 🛠️ Herramientas
+
+[![Figma](https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=Figma)](/#)[![Penpot](https://img.shields.io/badge/Penpot-black?style=for-the-badge&logo=Penpot)](/#)
